@@ -1,22 +1,22 @@
 package com.cbfacademy.apiassessment;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
-import org.springframework.stereotype.Service; 
 
 
 @Service
 public class ListRecipeService implements RecipeService {
 
-    private final List<Recipe> recipes = new ArrayList<>();
+    @Autowired
+    private RecipeRepository recipeRepository;
 
 
     @Override 
     public List<Recipe> getAllRecipes() {
-        return recipes;
+        return recipeRepository.findAll();
     }
     
 

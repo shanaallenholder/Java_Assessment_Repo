@@ -33,7 +33,7 @@ public class Recipe {
 
     // This is the recipe contructor whihch doesnt include the UUID as this is to be
     // generated from the back end not the caller
-    public Recipe(UUID id, String name, String instructions, String ingredients, boolean isNutFree, boolean isGlutenFree, boolean isVegan, int servings) {
+    public Recipe( String name, String instructions, String ingredients, boolean isNutFree, boolean isGlutenFree, boolean isVegan, int servings) {
         this.id = UUID.randomUUID();
         this.name = name;
         this.isVegan = isVegan;
