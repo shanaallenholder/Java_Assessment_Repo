@@ -2,7 +2,7 @@
 
 ## **Introduction**
 The Recipe Book API project has been designed to help clients manage and maintain a bespoke customisable recipe book/diary. 
-It allows users to tailor their preferences and dietary requirements to the types of recipes they love . 
+It allows users to tailor their preferences and dietary requirements to the types of recipes they love. 
 It will include cooking instructions, portion sizes and all listed ingredients with specific allergen information to satisfy every individuals needs. 
 
 **Initial User Stories**
