@@ -41,7 +41,7 @@ Postman a useful tool for testing API endpoints. If you don't have it installed,
 4.[https://www.postman.com/]
 
 **Git**
-Gir provides version control. If you want to use version control for your project, install Git from here https://github.com/.
+Git provides version control. If you want to use version control for your project, install Git from here https://github.com/.
 
 **P.S**
 It's beneficial to have a basic understanding of RESTful principles as your API supports CRUD operations using standard HTTP methods.
@@ -82,8 +82,8 @@ By following these design considerations and requirements, I’ll be able to dev
 #### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/shanaallenholder/Java_Assessment_Repo
-cd api_assessment_project
+git clone https://github.com/Recipe_Book_Api
+cd recipe-diary
 ```
 
 Replace [REPO_URL] with the link to your GitHub repository and [REPO_NAME] with the repository's name.
