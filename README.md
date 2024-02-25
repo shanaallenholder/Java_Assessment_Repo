@@ -33,7 +33,6 @@ Have an IDE of your choice installed, I used Vscode.
 2. [Extension Pack for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 3. [Spring Boot Extension Pack](https://marketplace.visualstudio.com/items?itemName=vmware.vscode-boot-dev-pack)
 
-
 **Apache Maven** 
 This is project management and build automation. Make sure Maven is installed on your machine. You can download it from here.
 
@@ -41,10 +40,8 @@ This is project management and build automation. Make sure Maven is installed on
 Postman a useful tool for testing API endpoints. If you don't have it installed, you can sign up on their website and use it remotely.
 4.[https://www.postman.com/]
 
-
 **Git**
 Gir provides version control. If you want to use version control for your project, install Git from here https://github.com/.
-
 
 **P.S**
 It's beneficial to have a basic understanding of RESTful principles as your API supports CRUD operations using standard HTTP methods.
@@ -55,10 +52,14 @@ These prerequisites will ensure a smooth setup and development process for your 
 
 * Java will be your middle name, working with objects and all that is JAVA!
 * You will be working with a Json file with Key:Value pairs which will hold all the data for your recipes and ingredients. 
-*Class, Services, Controller, Repositories, etc.
+*Classes, Services, Controller, Repositories, and more.
 * You will learn to work with Postman to test your endpoints.
-* You will become a noice pro at working around errors and troubleshooting your way through. 
-By following these steps, you will be able to build a well structured Recipe Book API which will have the folllowing:
+* * GET /recipes: Retrieves a list of all recipes in the database
+* GET/recipes/{id}: Retrieves a specific recipe by its ID
+  
+
+  
+### **By following these steps, you will be able to build a well structured Recipe Book API which will have the folllowing:**
 
 **Good Use of HTTP Protocols:**
 You will adhere to HTTP protocol standards, ensuring that your API methods, requests, and responses follow RESTful principles and support full CRUD operations. 
@@ -72,9 +73,6 @@ You will also maintain a detailed Git history to maintian a streamlined diary of
 **Code Quality & Structure:**
 You will adhere to Java and Spring Boot best practices and conventions, ensuring that your code is clean, modular, reusable, and easily comprehensible.
 By following these design considerations and requirements, I’ll be able to develop a top-notch API using Java and Spring Boot that meets the expectations outlined in the assessment.
-
-
-
 
 
 
