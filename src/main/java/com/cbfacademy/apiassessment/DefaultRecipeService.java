@@ -25,8 +25,10 @@ import com.cbfacademy.apiassessment.core.RecipeServiceException;
 @Service
 public class DefaultRecipeService implements RecipeService {
 
+    // Injects RecipeRepository into this class. 
     private final RecipeRepository recipeRepository;
-
+   
+    // Constructor that must be used with injection to instantiate the injection.
     public DefaultRecipeService(RecipeRepository recipeRepository) {
         this.recipeRepository = recipeRepository;
     }
@@ -35,11 +37,11 @@ public class DefaultRecipeService implements RecipeService {
     @Override
     public List<Recipe> getAllRecipes() {
         try {
-            return recipeRepository.findAll();
+            return recipeRepository.findAll(); // takes the findall method from the repository to retrieve this inforamtion from the json file
 
-        } catch (PersistenceException e) {
+        } catch (PersistenceException e) { // Throw an exception if the getAllRecipe cant be retrieved. 
             e.getMessage();
-            return new ArrayList<>();
+            return new ArrayList<>(); // An empty list is returned if an exception is to occur. 
         }
     }
 

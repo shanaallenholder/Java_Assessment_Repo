@@ -12,7 +12,6 @@ import com.cbfacademy.apiassessment.core.DataPersistenceException;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 
 import java.io.IOException;
@@ -137,6 +136,7 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
       try {
         Recipe newRecipe = recipeService.createRecipe(recipe);
         return new ResponseEntity<>(newRecipe, HttpStatus.CREATED); //201 response given
+
       } catch (DataPersistenceException e) { //custom exception
         e.printStackTrace();
         return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // 500 response given
@@ -151,17 +151,18 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
  * @param id The ID of the recipe to update.
  * @param updatedRecipe The updated recipe.
  * get a recipe then, body, then edit, then send
- * Example URL to test http://localhost:8080/api/recipes/e5573a42-a0ee-4cc7-b72e-97e0076eac2e
+ * Example URL to test http://localhost:8080/api/recipes/33fe7101-12eb-44d4-a548-4b6e661099b3
  */ 
 @PutMapping("/{id}")
     public ResponseEntity<Recipe> updateRecipe(@PathVariable UUID id, @RequestBody Recipe recipe)  {
-      try{
+      try {
         Recipe updatedRecipe = recipeService.updateRecipe(id, recipe);
         return new ResponseEntity<>(updatedRecipe, HttpStatus.OK); //201 response
+      } catch (DataPersistenceException e) {
        e.printStackTrace();
         return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // 500 response given
-        
       }
+      
     }
 
 

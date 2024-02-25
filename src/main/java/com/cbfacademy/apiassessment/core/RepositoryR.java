@@ -10,7 +10,7 @@ import java.util.UUID;
 public interface RepositoryR<T, ID> extends Serializable  {
 
 // <T> meaning type which will be replaced by Recipe
-// <ID> meaning ID  which will be the unique identifier (ID) for the entities
+// <ID> meaning ID  which will be the unique identifier UUID (ID) for the entities
 
 /**
  * Retrieves all entities from the repository.
