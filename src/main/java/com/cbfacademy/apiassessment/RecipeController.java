@@ -12,6 +12,7 @@ import com.cbfacademy.apiassessment.core.DataPersistenceException;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 
 import java.io.IOException;
@@ -40,7 +41,7 @@ public RecipeController(RecipeService recipeService) {
  * Retrieves a list of all recipes.
  * @return A ResponseEntity containing a list of all recipes and HttpStatus OK if successful.
  * 
- * Endpoint URL http://localhost:8080/api/recipes
+ * Endpoint URL example http://localhost:8080/api/recipes
  * 
  */
  @GetMapping
@@ -62,6 +63,7 @@ public ResponseEntity<List<Recipe>> getAllRecipes() {
  * 
  * Retrieves a specific recipe by its unique identifier/ID
  * @param  ID of the recipe to retrieve
+ *  Endpoint URL example http://localhost:8080/api/recipes/e5573a42-a0ee-4cc7-b72e-97e0076eac2e
  * 
  */
     @GetMapping("/{id}")
@@ -84,6 +86,8 @@ public ResponseEntity<List<Recipe>> getAllRecipes() {
  * 
  * @param name The name of the recipe to search for.
  * @return The recipe with that name
+ * 
+ * Example endpoint URL http://localhost:8080/api/recipes/name/Panna Cotta
  *
  */ 
 @GetMapping("/name/{name}")
@@ -108,12 +112,15 @@ public ResponseEntity <List<Recipe>> searchRecipeByName(@PathVariable String nam
 * @param isVegan  Boolean indicating whether the recipe should be vegan.
 * @return List of recipes that match the specified allergen criteria.
 * 
+* Example endpoint URL http://localhost:8080/api/recipes/allergen?glutenfree=true - returns gluten-free recipes. 
+* Example endpoint URL http://localhost:8080/api/recipes/allergen?nutfree=true - returns nut free recipes. 
+* Example endpoint URL http://localhost:8080/api/recipes/allergen?glutenFree=true&vegan=true - returns both nut free and gluten free.
 */ 
-@GetMapping("/allergen/{allergen}")
+@GetMapping("/allergen")
 public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
-          @RequestParam(required = false) Boolean glutenFree,
-          @RequestParam(required = false) Boolean nutFree,
-          @RequestParam(required = false) Boolean vegan) throws IOException  {
+          @RequestParam(required = false, defaultValue = "false") Boolean glutenFree,
+          @RequestParam(required = false, defaultValue = "false") Boolean nutFree,
+          @RequestParam(required = false, defaultValue = "false") Boolean vegan) throws IOException  {
       List<Recipe> recipes = recipeService.searchRecipeByAllergen(glutenFree, nutFree, vegan);
       return  ResponseEntity.ok().body(recipes);
 }
@@ -123,15 +130,16 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
  *  Allows the user to create a new recipe.
  * @param createRecipe The recipe to be created.
  * 
+ * 
  */
   @PostMapping ()
     public ResponseEntity<Recipe> createRecipe(@RequestBody Recipe recipe) {
       try {
         Recipe newRecipe = recipeService.createRecipe(recipe);
-        return new ResponseEntity<>(newRecipe, HttpStatus.CREATED);
-      } catch (DataPersistenceException e) {
+        return new ResponseEntity<>(newRecipe, HttpStatus.CREATED); //201 response given
+      } catch (DataPersistenceException e) { //custom exception
         e.printStackTrace();
-        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // 500 response given
       }  
 
   }
@@ -142,15 +150,19 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
  * 
  * @param id The ID of the recipe to update.
  * @param updatedRecipe The updated recipe.
+ * get a recipe then, body, then edit, then send
  * Example URL to test http://localhost:8080/api/recipes/e5573a42-a0ee-4cc7-b72e-97e0076eac2e
  */ 
 @PutMapping("/{id}")
-    public ResponseEntity<Recipe> updateRecipe(@PathVariable UUID id, @RequestBody Recipe recipe) throws IOException {
-            Recipe updatedRecipe = recipeService.updateRecipe(id, recipe);
-            return new ResponseEntity<>(updatedRecipe, HttpStatus.OK);
-      
-        }
-
+    public ResponseEntity<Recipe> updateRecipe(@PathVariable UUID id, @RequestBody Recipe recipe)  {
+      try{
+        Recipe updatedRecipe = recipeService.updateRecipe(id, recipe);
+        return new ResponseEntity<>(updatedRecipe, HttpStatus.OK); //201 response
+       e.printStackTrace();
+        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR); // 500 response given
+        
+      }
+    }
 
 
 /**
@@ -159,9 +171,17 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
  * @param id The recipe ID that will be deleted.
  */ 
 @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteRecipe(@PathVariable UUID id) throws IOException {
+    public ResponseEntity<Void> deleteRecipe(@PathVariable UUID id) {
+      try {
         recipeService.deleteRecipe(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+      } catch (DataPersistenceException e) {
+        e.printStackTrace();
+        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+    
+      }
+        
+        
     }
 
 }

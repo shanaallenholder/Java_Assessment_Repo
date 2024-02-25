@@ -1,64 +1,4 @@
 {
-    "e5573a42-a0ee-4cc7-b72e-97e0076eac2e": {
-        "id": "e5573a42-a0ee-4cc7-b72e-97e0076eac2e",
-        "name": "Spotted Dick",
-        "instructions": "In a mixing bowl, cream together butter and sugar until light and fluffy. Stir in flour, raisins, currants, and baking powder until well combined. Gradually add milk to form a soft dough. Transfer dough to a greased pudding basin. Cover with parchment paper and foil, securing with kitchen string. Steam for 1 1/2 to 2 hours or until firm and cooked through. Serve hot with custard.",
-        "ingredients": [
-            {
-                "name": "flour",
-                "weight": 200.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            },
-            {
-                "name": "butter",
-                "weight": 100.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            },
-            {
-                "name": "sugar",
-                "weight": 100.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            },
-            {
-                "name": "raisins",
-                "weight": 100.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            },
-            {
-                "name": "currants",
-                "weight": 100.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            },
-            {
-                "name": "milk",
-                "weight": 150.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            },
-            {
-                "name": "baking powder",
-                "weight": 5.0,
-                "glutenFree": false,
-                "nutFree": false,
-                "vegan": false
-            }
-        ],
-        "servings": 6,
-        "glutenFree": false,
-        "nutFree": false,
-        "vegan": false
-    },
     "6de79373-6c80-4c37-b1cd-f365f286c92a": {
         "id": "6de79373-6c80-4c37-b1cd-f365f286c92a",
         "name": "Key Lime Pie",
@@ -632,7 +572,7 @@
     },
     "e2d0edbd-7f32-4572-9de2-767be2e6344c": {
         "id": "e2d0edbd-7f32-4572-9de2-767be2e6344c",
-        "name": "Sweet Potato Pie",
+        "name": "Grandma's sweet potato pie",
         "instructions": "Preheat oven to 375°F (190°C). Bake sweet potatoes until tender. Peel and mash sweet potatoes. In a large bowl, mix mashed sweet potatoes with melted butter, brown sugar, beaten eggs, milk, vanilla extract, cinnamon, and nutmeg. Pour mixture into the pie crust. Bake for 45-50 minutes or until set. Allow to cool before serving.",
         "ingredients": [
             {
