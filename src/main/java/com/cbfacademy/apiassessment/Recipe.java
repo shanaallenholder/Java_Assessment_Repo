@@ -1,16 +1,19 @@
 package com.cbfacademy.apiassessment;
 
+import java.util.List;
 import java.util.UUID;
 
 public class Recipe {
-       // These are the unitque identifiers for this class- The attributes.
-    private UUID id;
+
+
+    // These are the unitque identifiers for this class- The attributes.
+    private UUID id;  //Unique identifier for each recipe
     private String name;
     private boolean isVegan;
     private boolean isGlutenFree;
     private boolean isNutFree;
     private String instructions; 
-    private String ingredients;
+    private List<Ingredient> ingredients;
     private int servings;
 
     public Recipe() {
@@ -33,8 +36,8 @@ public class Recipe {
 
     // This is the recipe contructor whihch doesnt include the UUID as this is to be
     // generated from the back end not the caller
-    public Recipe( String name, String instructions, String ingredients, boolean isNutFree, boolean isGlutenFree, boolean isVegan, int servings) {
-        this.id = UUID.randomUUID();
+    public Recipe(String name, boolean isVegan, boolean isGlutenFree, boolean isNutFree, String instructions, List<Ingredient> ingredients, int servings){
+        this.id = UUID.randomUUID(); // Generating a random UUID
         this.name = name;
         this.isVegan = isVegan;
         this.isGlutenFree = isGlutenFree;
@@ -52,6 +55,16 @@ public class Recipe {
      */
     public UUID getId() {
         return id;
+    }
+
+    /**
+     * Set the new UUID
+     * 
+     * @param randomUUID
+     */
+
+      public void setId(UUID id) {
+         this.id = id;
     }
 
     /**
@@ -156,7 +169,7 @@ public class Recipe {
      * @return The list of ingredients needed for a particular recipe.
      */
        
-     public String getIngredients(){
+     public List<Ingredient> getIngredients(){
         return ingredients;
      }
 
@@ -166,7 +179,7 @@ public class Recipe {
      * @param ingredients are set for the recipe 
      */
        
-     public void setIngredients(String ingredients){
+     public void setIngredients(List<Ingredient> ingredients){
         this.ingredients = ingredients;
      }
 
@@ -187,5 +200,7 @@ public class Recipe {
     public void setServings(int servings) {
         this.servings = servings;
     
+
 }
+
 }

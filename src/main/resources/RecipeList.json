@@ -1,0 +1,428 @@
+{
+  "recipes": [
+    {
+      "name": "Classic Chocolate Chip Cookies",
+      "description": "Soft and chewy chocolate chip cookies, perfect for any occasion.",
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "weight": 200,
+          "isVegan": true,
+          "isGlutenFree": false,
+          "isNutFree": true
+        },
+        {
+          "name": "butter",
+          "weight": 150,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "brown sugar",
+          "weight": 100,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "granulated sugar",
+          "weight": 100,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "chocolate chips",
+          "weight": 150,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "eggs",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "vanilla extract",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking soda",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        }
+      ],
+      "instructions": "Preheat oven to 350°F (175°C). Cream together butter, brown sugar, and granulated sugar. Beat in eggs one at a time, then stir in vanilla. Dissolve baking soda in hot water, then add to batter. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans. Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.",
+      "prepTime": "15 minutes",
+      "cookTime": "10 minutes",
+      "servings": 24
+    },
+    {
+      "name": "Classic Vanilla Cupcakes",
+      "description": "Delicious vanilla cupcakes with creamy vanilla frosting.",
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "weight": 180,
+          "isVegan": true,
+          "isGlutenFree": false,
+          "isNutFree": true
+        },
+        {
+          "name": "butter",
+          "weight": 150,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "granulated sugar",
+          "weight": 150,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "eggs",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "vanilla extract",
+          "weight": 10,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking powder",
+          "weight": 8,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "salt",
+          "weight": 3,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "milk",
+          "weight": 120,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        }
+      ],
+      "instructions": "Preheat oven to 350°F (175°C). Cream together butter and sugar. Beat in eggs, then stir in vanilla. Combine flour, baking powder, and salt; stir into the butter mixture alternately with the milk. Pour or spoon batter into prepared cups. Bake for 20 to 25 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean. Cool completely before frosting.",
+      "prepTime": "15 minutes",
+      "cookTime": "25 minutes",
+      "servings": 12
+    },
+    {
+      "name": "Strawberry Shortcake",
+      "description": "Light and airy strawberry shortcake with fresh strawberries and whipped cream.",
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "weight": 200,
+          "isVegan": true,
+          "isGlutenFree": false,
+          "isNutFree": true
+        },
+        {
+          "name": "butter",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "granulated sugar",
+          "weight": 100,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "eggs",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "vanilla extract",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking powder",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "salt",
+          "weight": 3,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "whipping cream",
+          "weight": 200,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "strawberries",
+          "weight": 300,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        }
+      ],
+      "instructions": "Preheat oven to 425°F (220°C). In a medium bowl, mix together flour, sugar, baking powder, and salt. Cut in butter until the mixture resembles coarse crumbs. Make a well in the center and add the beaten egg, milk, and vanilla. Stir until just combined. Drop by large spoonfuls onto a baking sheet. Bake for 15 to 20 minutes in the preheated oven, or until golden brown. Split biscuits horizontally and top with strawberries and whipped cream.",
+      "prepTime": "15 minutes",
+      "cookTime": "20 minutes",
+      "servings": 8
+    },
+    {
+      "name": "Banana Bread",
+      "description": "Moist and flavorful banana bread, perfect for breakfast or a snack.",
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "weight": 200,
+          "isVegan": true,
+          "isGlutenFree": false,
+          "isNutFree": true
+        },
+        {
+          "name": "butter",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "granulated sugar",
+          "weight": 100,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "eggs",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "bananas",
+          "weight": 300,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "vanilla extract",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking soda",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "salt",
+          "weight": 3,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        }
+      ],
+      "instructions": "Preheat oven to 350°F (175°C). Cream together butter and sugar. Beat in eggs, then stir in bananas and vanilla. Combine flour, baking soda, and salt; stir into the banana mixture. Pour batter into prepared loaf pan. Bake for 60 to 65 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean. Cool completely before slicing.",
+      "prepTime": "15 minutes",
+      "cookTime": "65 minutes",
+      "servings": 12
+    },
+    {
+      "name": "Blueberry Muffins",
+      "description": "Moist and tender blueberry muffins bursting with juicy blueberries.",
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "weight": 200,
+          "isVegan": true,
+          "isGlutenFree": false,
+          "isNutFree": true
+        },
+        {
+          "name": "butter",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "granulated sugar",
+          "weight": 100,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "eggs",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "milk",
+          "weight": 120,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "vanilla extract",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking powder",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "salt",
+          "weight": 3,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "blueberries",
+          "weight": 200,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        }
+      ],
+      "instructions": "Preheat oven to 375°F (190°C). Grease muffin cups or line with muffin liners. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a time, then stir in vanilla. Combine flour, baking powder, and salt; stir into the butter mixture alternately with the milk. Fold in blueberries. Scoop batter into prepared muffin cups. Bake for 20 to 25 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean.",
+      "prepTime": "15 minutes",
+      "cookTime": "25 minutes",
+      "servings": 12
+    },
+    {
+      "name": "Chocolate Cake",
+      "description": "Rich and decadent chocolate cake with chocolate frosting, a chocolate lover's dream.",
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "weight": 200,
+          "isVegan": true,
+          "isGlutenFree": false,
+          "isNutFree": true
+        },
+        {
+          "name": "butter",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "granulated sugar",
+          "weight": 150,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "eggs",
+          "weight": 100,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "cocoa powder",
+          "weight": 50,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking powder",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "baking soda",
+          "weight": 5,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "salt",
+          "weight": 3,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "milk",
+          "weight": 120,
+          "isVegan": false,
+          "isGlutenFree": true,
+          "isNutFree": true
+        },
+        {
+          "name": "hot water",
+          "weight": 120,
+          "isVegan": true,
+          "isGlutenFree": true,
+          "isNutFree": true
+        }
+      ],
+      "instructions": "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a time, then stir in vanilla. Combine flour, cocoa, baking powder, baking soda, and salt; stir into the butter mixture alternately with the milk and hot water. Pour batter evenly into prepared pans. Bake for 30 to 35 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean. Cool in pans on wire racks for 10 minutes, then remove from pans and cool completely.",
+      "prepTime": "20 minutes",
+      "cookTime": "35 minutes",
+      "servings": 12
+    }
+  ]
+}

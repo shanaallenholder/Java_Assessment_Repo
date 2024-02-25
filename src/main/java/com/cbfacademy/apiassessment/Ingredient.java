@@ -1,7 +1,9 @@
 package com.cbfacademy.apiassessment;
+
+
+
 // The Ingredient class represents a Ingredient entity with details such as the ingredients name, weight and dietry restrictions.  
 public class Ingredient {
-
 
     // These are the unique indentifiers for this class - the attributes.
     private String name;
@@ -109,5 +111,7 @@ public class Ingredient {
     public void setNutFree(boolean nutFree) {
         isNutFree = nutFree;
     }
-    
+
 }
+
+

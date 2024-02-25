@@ -1,4 +1,4 @@
-package com.cbfacademy.apiassessment;
+package com.cbfacademy.apiassessment.core;
 
 public class DataPersistenceException extends RuntimeException {
 
@@ -9,7 +9,7 @@ public class DataPersistenceException extends RuntimeException {
         this.errorMessage = message;
     }
 
-    public String getErrorMessage() {
+    public String getErrorMessage() { 
         return errorMessage;
     }
     
