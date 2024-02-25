@@ -1,4 +1,4 @@
-# **Recipe Book Diary APIt**
+# **Recipe Book Diary API**
 
 ## **Introduction**
 The Recipe Book API project has been designed to help clients manage and maintain a bespoke customisable recipe book/diary. 
