@@ -6,7 +6,7 @@ It allows users to tailor their preferences and dietary requirements to the type
 It will include cooking instructions, portion sizes and all listed ingredients with specific allergen information to satisfy every individuals needs. 
 
 **Initial User Stories**
-- The Recipe Book Diary API will empower users to:
+The Recipe Book Diary API will empower users to:
 - View a list of recipes.
 - Search recipes by keyword or category.
 - Access detailed information about specific recipes.
