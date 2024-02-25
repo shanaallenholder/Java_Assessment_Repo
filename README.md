@@ -82,13 +82,13 @@ By following these design considerations and requirements, I’ll be able to dev
 #### 1. Clone the Repository
 
 ```sh
-git clone [REPO_URL]
-cd [REPO_NAME]
+git clone https://github.com/shanaallenholder/Java_Assessment_Repo
+cd api_assessment_project
 ```
 
 Replace [REPO_URL] with the link to your GitHub repository and [REPO_NAME] with the repository's name.
 
-#### 2. Install Dependencies
+#### 2. Installation
 
 Open a terminal at the root of the repo directory and run the following command to install the dependencies:
 
@@ -174,19 +174,6 @@ You should see console output similar to the following (press `Ctrl + C` to exit
 
 Open your browser and navigate to `http://localhost:8080`.
 
-## **Deliverables**
-
-Ensure that your work is merged to the `main` branch of your GitHub repository by the specified deadline (original or extended). Your solution will assessed based on its state *at that point*; any later commits will **not** be taken into account.
-
-## FAQs
-
-- Q: How can I process JSON in Java?
-    
-    A: There are a number of open-source packages that you can use to manipulate JSON. We recommend [Gson](https://github.com/google/gson), but you can also investigate alternatives like [json-simple](https://github.com/cliftonlabs/json-simple) or [Jackson](https://github.com/FasterXML/jackson-databind/).
-
-- Q: Can I use another IDE I'm more familiar with instead of VS Code, like IntelliJ or Eclipse?
-
-    A: You can if you wish, but only VS Code is formally supported by CBF Academy staff, so you do so at your own risk.
 
 ## Top Tips
 
@@ -198,4 +185,4 @@ Ensure that your work is merged to the `main` branch of your GitHub repository b
 - :calendar: Don't wait until the last minute. Plan your work early and make the most of the time available to complete the assessment and avoid pre-deadline palpitations.
 - :sos: Ask. :clap: For. :clap: Help! :clap: Your mentors, instructors and assistants are literally here to support you, so *make use of them* - don't sit and struggle in silence.
 
-Best of luck! Remember, it's not just about the destination; it's the journey. Happy coding! 🚀
+
