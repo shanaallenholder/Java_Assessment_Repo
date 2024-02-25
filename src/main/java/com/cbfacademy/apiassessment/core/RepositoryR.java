@@ -31,7 +31,7 @@ public interface RepositoryR<T, ID> extends Serializable  {
   T findbyId(UUID id); 
 
 /**
- * Saves/create/add a new entity in the repository.
+ * Saves/create a new entity in the repository.
  * 
  * @param entity the (@code <T>) to save/create/add
  *  @return the saved/created entity.

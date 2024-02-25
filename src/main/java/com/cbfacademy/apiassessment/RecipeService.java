@@ -46,7 +46,7 @@ List<Recipe> searchRecipeByAllergen(Boolean isGlutenFree, Boolean isNutFree, Boo
 
 
 /**
- * Create new recipe.
+ * Create and save new recipe.
  * 
  * @param recipe The recipe to create.
  * @return The created recipe. 

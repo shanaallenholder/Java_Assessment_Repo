@@ -65,7 +65,7 @@ public class JsonRecipeRepository implements RecipeRepository {
         }
         try {
      
-            objectMapper.writeValue(new File(filepath),recipes.values());
+            objectMapper.writeValue(new File(filepath),recipes);
         } catch (IOException e) {
             e.printStackTrace();
             throw new DataPersistenceException("Failed to save recipe/data to JSON file:" + filepath, e);

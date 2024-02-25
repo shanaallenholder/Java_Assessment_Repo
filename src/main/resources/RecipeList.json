@@ -1,428 +1,806 @@
 {
-  "recipes": [
-    {
-      "name": "Classic Chocolate Chip Cookies",
-      "description": "Soft and chewy chocolate chip cookies, perfect for any occasion.",
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "weight": 200,
-          "isVegan": true,
-          "isGlutenFree": false,
-          "isNutFree": true
-        },
-        {
-          "name": "butter",
-          "weight": 150,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "brown sugar",
-          "weight": 100,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "granulated sugar",
-          "weight": 100,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "chocolate chips",
-          "weight": 150,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "eggs",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "vanilla extract",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking soda",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        }
-      ],
-      "instructions": "Preheat oven to 350°F (175°C). Cream together butter, brown sugar, and granulated sugar. Beat in eggs one at a time, then stir in vanilla. Dissolve baking soda in hot water, then add to batter. Stir in flour, chocolate chips, and nuts. Drop by large spoonfuls onto ungreased pans. Bake for about 10 minutes in the preheated oven, or until edges are nicely browned.",
-      "prepTime": "15 minutes",
-      "cookTime": "10 minutes",
-      "servings": 24
+    "e5573a42-a0ee-4cc7-b72e-97e0076eac2e": {
+        "id": "e5573a42-a0ee-4cc7-b72e-97e0076eac2e",
+        "name": "Spotted Dick",
+        "instructions": "In a mixing bowl, cream together butter and sugar until light and fluffy. Stir in flour, raisins, currants, and baking powder until well combined. Gradually add milk to form a soft dough. Transfer dough to a greased pudding basin. Cover with parchment paper and foil, securing with kitchen string. Steam for 1 1/2 to 2 hours or until firm and cooked through. Serve hot with custard.",
+        "ingredients": [
+            {
+                "name": "flour",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "raisins",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "currants",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "milk",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "baking powder",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 6,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
     },
-    {
-      "name": "Classic Vanilla Cupcakes",
-      "description": "Delicious vanilla cupcakes with creamy vanilla frosting.",
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "weight": 180,
-          "isVegan": true,
-          "isGlutenFree": false,
-          "isNutFree": true
-        },
-        {
-          "name": "butter",
-          "weight": 150,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "granulated sugar",
-          "weight": 150,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "eggs",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "vanilla extract",
-          "weight": 10,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking powder",
-          "weight": 8,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "salt",
-          "weight": 3,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "milk",
-          "weight": 120,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        }
-      ],
-      "instructions": "Preheat oven to 350°F (175°C). Cream together butter and sugar. Beat in eggs, then stir in vanilla. Combine flour, baking powder, and salt; stir into the butter mixture alternately with the milk. Pour or spoon batter into prepared cups. Bake for 20 to 25 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean. Cool completely before frosting.",
-      "prepTime": "15 minutes",
-      "cookTime": "25 minutes",
-      "servings": 12
+    "6de79373-6c80-4c37-b1cd-f365f286c92a": {
+        "id": "6de79373-6c80-4c37-b1cd-f365f286c92a",
+        "name": "Key Lime Pie",
+        "instructions": "Preheat oven to 350°F (175°C). In a medium bowl, mix together graham cracker crumbs, melted butter, and sugar until well combined. Press mixture into the bottom and up the sides of a 9-inch pie dish. Bake crust for 8 minutes, then remove from oven and let cool. In a large bowl, whisk together key lime juice, sweetened condensed milk, and egg yolks until smooth. Pour mixture into cooled crust. Bake for 15 minutes, or until center is set. Let cool completely, then refrigerate for at least 2 hours. Serve chilled with whipped cream and lime zest garnish.",
+        "ingredients": [
+            {
+                "name": "graham cracker crumbs",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "key lime juice",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "sweetened condensed milk",
+                "weight": 300.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "whipped cream",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "lime zest",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 8,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
     },
-    {
-      "name": "Strawberry Shortcake",
-      "description": "Light and airy strawberry shortcake with fresh strawberries and whipped cream.",
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "weight": 200,
-          "isVegan": true,
-          "isGlutenFree": false,
-          "isNutFree": true
-        },
-        {
-          "name": "butter",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "granulated sugar",
-          "weight": 100,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "eggs",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "vanilla extract",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking powder",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "salt",
-          "weight": 3,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "whipping cream",
-          "weight": 200,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "strawberries",
-          "weight": 300,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        }
-      ],
-      "instructions": "Preheat oven to 425°F (220°C). In a medium bowl, mix together flour, sugar, baking powder, and salt. Cut in butter until the mixture resembles coarse crumbs. Make a well in the center and add the beaten egg, milk, and vanilla. Stir until just combined. Drop by large spoonfuls onto a baking sheet. Bake for 15 to 20 minutes in the preheated oven, or until golden brown. Split biscuits horizontally and top with strawberries and whipped cream.",
-      "prepTime": "15 minutes",
-      "cookTime": "20 minutes",
-      "servings": 8
+    "a80e76b4-bb35-470e-abbd-b60bea6f8310": {
+        "id": "a80e76b4-bb35-470e-abbd-b60bea6f8310",
+        "name": "Cherry Pie",
+        "instructions": "Preheat oven to 375°F (190°C). In a large bowl, combine pitted cherries, sugar, cornstarch, lemon juice, almond extract, and vanilla extract. Let stand for 10 minutes. Roll out half of the pie crust and line a 9-inch pie dish. Pour cherry filling into crust. Dot with butter. Roll out remaining pie crust and place over filling. Trim, seal, and flute edges. Cut slits in top crust. Beat egg and brush over crust. Bake for 50 to 60 minutes, or until crust is golden brown and filling is bubbly. If crust starts to brown too much, cover edges with foil. Cool on a wire rack before serving.",
+        "ingredients": [
+            {
+                "name": "pie crust",
+                "weight": 400.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "cherries",
+                "weight": 600.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "cornstarch",
+                "weight": 30.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "lemon juice",
+                "weight": 10.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "almond extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 50.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "egg",
+                "weight": 50.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 8,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
     },
-    {
-      "name": "Banana Bread",
-      "description": "Moist and flavorful banana bread, perfect for breakfast or a snack.",
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "weight": 200,
-          "isVegan": true,
-          "isGlutenFree": false,
-          "isNutFree": true
-        },
-        {
-          "name": "butter",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "granulated sugar",
-          "weight": 100,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "eggs",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "bananas",
-          "weight": 300,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "vanilla extract",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking soda",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "salt",
-          "weight": 3,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        }
-      ],
-      "instructions": "Preheat oven to 350°F (175°C). Cream together butter and sugar. Beat in eggs, then stir in bananas and vanilla. Combine flour, baking soda, and salt; stir into the banana mixture. Pour batter into prepared loaf pan. Bake for 60 to 65 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean. Cool completely before slicing.",
-      "prepTime": "15 minutes",
-      "cookTime": "65 minutes",
-      "servings": 12
+    "4db1d6df-c15d-4b86-afe5-b38581f24b85": {
+        "id": "4db1d6df-c15d-4b86-afe5-b38581f24b85",
+        "name": "Blueberry Cheesecake",
+        "instructions": "Preheat oven to 325°F (160°C). In a medium bowl, mix together graham cracker crumbs, melted butter, and sugar until well combined. Press mixture into the bottom of a 9-inch springform pan. In a large bowl, beat cream cheese and sugar until smooth. Beat in sour cream, eggs, and vanilla extract until well combined. Pour cream cheese mixture over crust. In a small saucepan, combine blueberries, sugar, cornstarch, and lemon juice. Cook over medium heat until mixture thickens. Remove from heat and let cool slightly. Drop spoonfuls of blueberry mixture over cheesecake batter. Use a knife to swirl blueberry mixture into batter. Bake for 50 to 55 minutes, or until center is set. Cool in pan on a wire rack for 10 minutes. Remove sides of pan and let cool completely. Chill in the refrigerator for at least 4 hours before serving.",
+        "ingredients": [
+            {
+                "name": "graham cracker crumbs",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "cream cheese",
+                "weight": 450.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "sour cream",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "blueberries",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "cornstarch",
+                "weight": 10.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "lemon juice",
+                "weight": 10.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 10,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
     },
-    {
-      "name": "Blueberry Muffins",
-      "description": "Moist and tender blueberry muffins bursting with juicy blueberries.",
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "weight": 200,
-          "isVegan": true,
-          "isGlutenFree": false,
-          "isNutFree": true
-        },
-        {
-          "name": "butter",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "granulated sugar",
-          "weight": 100,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "eggs",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "milk",
-          "weight": 120,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "vanilla extract",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking powder",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "salt",
-          "weight": 3,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "blueberries",
-          "weight": 200,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        }
-      ],
-      "instructions": "Preheat oven to 375°F (190°C). Grease muffin cups or line with muffin liners. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a time, then stir in vanilla. Combine flour, baking powder, and salt; stir into the butter mixture alternately with the milk. Fold in blueberries. Scoop batter into prepared muffin cups. Bake for 20 to 25 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean.",
-      "prepTime": "15 minutes",
-      "cookTime": "25 minutes",
-      "servings": 12
+    "4696d4ee-cf54-400d-be27-0cc61d94b72a": {
+        "id": "4696d4ee-cf54-400d-be27-0cc61d94b72a",
+        "name": "Banana Bread",
+        "instructions": "Preheat oven to 350°F (175°C). Cream together butter and sugar. Beat in eggs, then stir in bananas and vanilla. Combine flour, baking soda, and salt; stir into the banana mixture. Pour batter into prepared loaf pan. Bake for 60 to 65 minutes, or until a toothpick inserted into the center comes out clean. Cool completely before slicing.",
+        "ingredients": [
+            {
+                "name": "all-purpose flour",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "bananas",
+                "weight": 300.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "baking soda",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "salt",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 12,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
     },
-    {
-      "name": "Chocolate Cake",
-      "description": "Rich and decadent chocolate cake with chocolate frosting, a chocolate lover's dream.",
-      "ingredients": [
-        {
-          "name": "all-purpose flour",
-          "weight": 200,
-          "isVegan": true,
-          "isGlutenFree": false,
-          "isNutFree": true
-        },
-        {
-          "name": "butter",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "granulated sugar",
-          "weight": 150,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "eggs",
-          "weight": 100,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "cocoa powder",
-          "weight": 50,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking powder",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "baking soda",
-          "weight": 5,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "salt",
-          "weight": 3,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "milk",
-          "weight": 120,
-          "isVegan": false,
-          "isGlutenFree": true,
-          "isNutFree": true
-        },
-        {
-          "name": "hot water",
-          "weight": 120,
-          "isVegan": true,
-          "isGlutenFree": true,
-          "isNutFree": true
-        }
-      ],
-      "instructions": "Preheat oven to 350°F (175°C). Grease and flour two 9-inch round cake pans. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a time, then stir in vanilla. Combine flour, cocoa, baking powder, baking soda, and salt; stir into the butter mixture alternately with the milk and hot water. Pour batter evenly into prepared pans. Bake for 30 to 35 minutes in the preheated oven, or until a toothpick inserted into the center comes out clean. Cool in pans on wire racks for 10 minutes, then remove from pans and cool completely.",
-      "prepTime": "20 minutes",
-      "cookTime": "35 minutes",
-      "servings": 12
+    "33fe7101-12eb-44d4-a548-4b6e661099b3": {
+        "id": "33fe7101-12eb-44d4-a548-4b6e661099b3",
+        "name": "Vanilla Cupcakes",
+        "instructions": "Preheat oven to 350°F (175°C). Cream together butter and sugar. Beat in eggs, then stir in vanilla. Combine flour, baking powder, and salt; stir into the butter mixture alternately with the milk. Pour or spoon batter into prepared cups. Bake for 20 to 25 minutes, or until a toothpick inserted into the center comes out clean. Cool completely before frosting.",
+        "ingredients": [
+            {
+                "name": "all-purpose flour",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 10.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "baking powder",
+                "weight": 8.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "salt",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "milk",
+                "weight": 120.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 12,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
+    },
+    "447e5336-6d1e-4123-b59a-be35b6248c44": {
+        "id": "447e5336-6d1e-4123-b59a-be35b6248c44",
+        "name": "Strawberry Shortcake",
+        "instructions": "Preheat oven to 425°F (220°C). In a medium bowl, mix together flour, sugar, baking powder, and salt. Cut in butter until the mixture resembles coarse crumbs. Make a well in the center and add the beaten egg, milk, and vanilla. Stir until just combined. Drop by large spoonfuls onto a baking sheet. Bake for 15 to 20 minutes, or until golden brown. Split biscuits horizontally and top with strawberries and whipped cream.",
+        "ingredients": [
+            {
+                "name": "all-purpose flour",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "baking powder",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "salt",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "whipping cream",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "strawberries",
+                "weight": 300.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 8,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
+    },
+    "415082fe-0900-4e5b-af02-d4423319c9e4": {
+        "id": "415082fe-0900-4e5b-af02-d4423319c9e4",
+        "name": "Blueberry Muffins",
+        "instructions": "Preheat oven to 375°F (190°C). Grease muffin cups or line with muffin liners. In a large bowl, cream together butter and sugar until light and fluffy. Beat in eggs one at a time, then stir in vanilla. Combine flour, baking powder, and salt; stir into the butter mixture alternately with the milk. Fold in blueberries. Scoop batter into prepared muffin cups. Bake for 20 to 25 minutes, or until a toothpick inserted into the center comes out clean.",
+        "ingredients": [
+            {
+                "name": "all-purpose flour",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "milk",
+                "weight": 120.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "baking powder",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "salt",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "blueberries",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 12,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
+    },
+    "cb664192-19e1-4bc1-b1c8-6b4fdfc608eb": {
+        "id": "cb664192-19e1-4bc1-b1c8-6b4fdfc608eb",
+        "name": "Classic Chocolate Chip Cookies",
+        "instructions": "Preheat oven to 350°F (175°C). Cream together butter, brown sugar, and granulated sugar. Beat in eggs one at a time, then stir in vanilla. Dissolve baking soda in hot water, then add to batter. Stir in flour and chocolate chips. Drop by large spoonfuls onto ungreased pans. Bake for about 10 minutes, or until edges are nicely browned.",
+        "ingredients": [
+            {
+                "name": "all-purpose flour",
+                "weight": 200.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "brown sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "granulated sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "chocolate chips",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "baking soda",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 24,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
+    },
+    "e2d0edbd-7f32-4572-9de2-767be2e6344c": {
+        "id": "e2d0edbd-7f32-4572-9de2-767be2e6344c",
+        "name": "Sweet Potato Pie",
+        "instructions": "Preheat oven to 375°F (190°C). Bake sweet potatoes until tender. Peel and mash sweet potatoes. In a large bowl, mix mashed sweet potatoes with melted butter, brown sugar, beaten eggs, milk, vanilla extract, cinnamon, and nutmeg. Pour mixture into the pie crust. Bake for 45-50 minutes or until set. Allow to cool before serving.",
+        "ingredients": [
+            {
+                "name": "sweet potatoes",
+                "weight": 500.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "brown sugar",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "milk",
+                "weight": 150.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "cinnamon",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "nutmeg",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "pie crust",
+                "weight": 1.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 8,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
+    },
+    "4559da48-2bb4-498b-8919-b3cff94324a8": {
+        "id": "4559da48-2bb4-498b-8919-b3cff94324a8",
+        "name": "Crepes",
+        "instructions": "In a mixing bowl, whisk together flour, eggs, milk, melted butter, sugar, and salt until smooth. Heat a lightly greased non-stick skillet over medium heat. Pour a small amount of batter into the skillet and swirl to spread evenly. Cook for 1-2 minutes on each side or until lightly golden. Repeat with remaining batter. Serve warm with desired fillings.",
+        "ingredients": [
+            {
+                "name": "all-purpose flour",
+                "weight": 125.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "eggs",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "milk",
+                "weight": 250.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "butter",
+                "weight": 50.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "sugar",
+                "weight": 25.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "salt",
+                "weight": 3.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 8,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
+    },
+    "5601ac7f-e62f-490b-87fa-e897d909325c": {
+        "id": "5601ac7f-e62f-490b-87fa-e897d909325c",
+        "name": "Panna Cotta",
+        "instructions": "In a saucepan, combine heavy cream, milk, and sugar. Heat over medium heat until sugar is dissolved and mixture is warm. Remove from heat and stir in vanilla extract. Sprinkle gelatin over 1/4 cup of cold water and let it sit for 5 minutes to soften. Stir softened gelatin into the cream mixture until dissolved. Pour into molds or ramekins. Refrigerate for at least 4 hours or until set. Serve chilled with fruit or sauce.",
+        "ingredients": [
+            {
+                "name": "heavy cream",
+                "weight": 500.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "milk",
+                "weight": 250.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "sugar",
+                "weight": 100.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "vanilla extract",
+                "weight": 5.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            },
+            {
+                "name": "gelatin",
+                "weight": 10.0,
+                "glutenFree": false,
+                "nutFree": false,
+                "vegan": false
+            }
+        ],
+        "servings": 6,
+        "glutenFree": false,
+        "nutFree": false,
+        "vegan": false
     }
-  ]
 }

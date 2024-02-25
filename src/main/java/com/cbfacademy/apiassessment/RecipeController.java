@@ -1,9 +1,14 @@
 package com.cbfacademy.apiassessment;
 
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cbfacademy.apiassessment.core.DataPersistenceException;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.http.HttpStatus;
@@ -115,11 +120,21 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
 
 
 /**
- *  Allows the useer to create a new recipe
- * @param  recipe of the recipe to retrieve
+ *  Allows the user to create a new recipe.
+ * @param createRecipe The recipe to be created.
  * 
  */
+  @PostMapping ()
+    public ResponseEntity<Recipe> createRecipe(@RequestBody Recipe recipe) {
+      try {
+        Recipe newRecipe = recipeService.createRecipe(recipe);
+        return new ResponseEntity<>(newRecipe, HttpStatus.CREATED);
+      } catch (DataPersistenceException e) {
+        e.printStackTrace();
+        return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+      }  
 
+  }
 
 
 /**
@@ -127,15 +142,26 @@ public ResponseEntity<List<Recipe>> searchRecipeByAllergen(
  * 
  * @param id The ID of the recipe to update.
  * @param updatedRecipe The updated recipe.
- * @return The updated recipe.
+ * Example URL to test http://localhost:8080/api/recipes/e5573a42-a0ee-4cc7-b72e-97e0076eac2e
  */ 
+@PutMapping("/{id}")
+    public ResponseEntity<Recipe> updateRecipe(@PathVariable UUID id, @RequestBody Recipe recipe) throws IOException {
+            Recipe updatedRecipe = recipeService.updateRecipe(id, recipe);
+            return new ResponseEntity<>(updatedRecipe, HttpStatus.OK);
+      
+        }
 
 
 
 /**
  * Allows the user to delete a recipe by its ID.
  * 
- * @param id The recipe of the recipe to search for.
+ * @param id The recipe ID that will be deleted.
  */ 
+@DeleteMapping("/{id}")
+    public ResponseEntity<Void> deleteRecipe(@PathVariable UUID id) throws IOException {
+        recipeService.deleteRecipe(id);
+        return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+    }
 
 }

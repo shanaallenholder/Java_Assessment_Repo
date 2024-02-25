@@ -6,7 +6,7 @@ import java.util.UUID;
 public class Recipe {
 
 
-    // These are the unitque identifiers for this class- The attributes.
+    // These are the unique identifiers for this class- The attributes.
     private UUID id;  //Unique identifier for each recipe
     private String name;
     private boolean isVegan;
