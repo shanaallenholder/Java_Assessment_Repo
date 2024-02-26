@@ -82,8 +82,8 @@ By following these design considerations and requirements, I’ll be able to dev
 #### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/Recipe_Book_Api
-cd recipe-diary
+git clone [https://github.com/Recipe_Book_Api](https://github.com/shanaallenholder/Java_Assessment_Repo
+cd api_assessment_project
 ```
 
 Replace [REPO_URL] with the link to your GitHub repository and [REPO_NAME] with the repository's name.
@@ -174,15 +174,5 @@ You should see console output similar to the following (press `Ctrl + C` to exit
 
 Open your browser and navigate to `http://localhost:8080`.
 
-
-## Top Tips
-
-- :camera_flash: Commit frequently and use meaningful commit messages. A granular, well-labelled history becomes an increasingly valuable asset over time.
-- :cactus: Use feature branches. Build the habit of isolating your changes for specific tasks and merging them into your default branch when complete.
-- :vertical_traffic_light: Use consistent naming conventions. Choose easily understandable names and naming patterns for your classes, functions and variables.
-- :triangular_ruler: Keep your code tidy. Using the built-in formatting of VS Code or other IDEs makes your code easier to read and mistakes easier to spot.
-- :books: Read the docs. Whether via Intellisense in your IDE, or browsing online documentation, build a clear understanding of the libraries your code leverages.
-- :calendar: Don't wait until the last minute. Plan your work early and make the most of the time available to complete the assessment and avoid pre-deadline palpitations.
-- :sos: Ask. :clap: For. :clap: Help! :clap: Your mentors, instructors and assistants are literally here to support you, so *make use of them* - don't sit and struggle in silence.
 
 
