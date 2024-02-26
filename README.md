@@ -82,7 +82,7 @@ By following these design considerations and requirements, I’ll be able to dev
 #### 1. Clone the Repository
 
 ```sh
-git clone [https://github.com/Recipe_Book_Api](https://github.com/shanaallenholder/Java_Assessment_Repo
+git clone https://github.com/shanaallenholder/Java_Assessment_Repo
 cd api_assessment_project
 ```
 
