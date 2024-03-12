@@ -21,7 +21,7 @@ The Recipe Book Diary API will empower users to:
  Before you begin, ensure you have the following prerequisites:
 
  **Vs Code**
- * Download any IDE of your choice to work on, however I recommend VS code as all the examples you'll see with be from there. 
+ * Download any IDE of your choice to work on, however I recommend VS code as all the examples you'll see will be done on there. 
 1. [Visual Studio Code](https://code.visualstudio.com/Download)
    
 **Java Development Kit (JDK):**
@@ -35,16 +35,17 @@ Have an IDE of your choice installed, I used Vscode.
 
 **Apache Maven** 
 This is project management and build automation. Make sure Maven is installed on your machine. You can download it from here.
+4. https://maven.apache.org/download.cgi
 
 **Postman**
-Postman a useful tool for testing API endpoints. If you don't have it installed, you can sign up on their website and use it remotely.
-4.[https://www.postman.com/]
+Postman is a useful tool for testing API endpoints. If you don't have it installed, you can sign up on their website and use it remotely on their browser.
+5.[https://www.postman.com/]
 
 **Git**
 Git provides version control. If you want to use version control for your project, install Git from here https://github.com/.
 
 **P.S**
-It's beneficial to have a basic understanding of RESTful principles as your API supports CRUD operations using standard HTTP methods.
+It's beneficial to have a basic understanding of RESTful principles as your Recipe Book API will need to support CRUD operations using standard HTTP methods.
 These prerequisites will ensure a smooth setup and development process for your Recipe Book Diary API.
   
 
@@ -53,9 +54,9 @@ These prerequisites will ensure a smooth setup and development process for your 
 * Java will be your middle name, working with objects and all that is JAVA!
 * You will be working with a Json file with Key:Value pairs which will hold all the data for your recipes and ingredients. 
 *Classes, Services, Controller, Repositories, and more.
-* You will learn to work with Postman to test your endpoints.
+* You will learn to work with Postman to test your endpoints I.E below...
 * * GET /recipes: Retrieves a list of all recipes in the database
-* GET/recipes/{id}: Retrieves a specific recipe by its ID
+* * GET/recipes/{id}: Retrieves a specific recipe by its ID
   
 
   
@@ -67,12 +68,12 @@ Using GET, POST, PUT and DELETE. You will use Postman to test
 all end points and you will structure these accordingly. 
 
 **Repository Repository Repository!!:**
-You will use version control to commit any progress frequently capturing your development process and thought process in the commit messages. 
+You will use version control to commit any progresses frequently, capturing your development process and thought process in the commit messages. 
 You will also maintain a detailed Git history to maintian a streamlined diary of the development of your API, for future changes and enhancements..
 
 **Code Quality & Structure:**
 You will adhere to Java and Spring Boot best practices and conventions, ensuring that your code is clean, modular, reusable, and easily comprehensible.
-By following these design considerations and requirements, I’ll be able to develop a top-notch API using Java and Spring Boot that meets the expectations outlined in the assessment.
+By following these design considerations and requirements, you will be able to develop a top-notch API using Java and Spring Boot that meets the expectations outlined in all of the above.
 
 
 
@@ -143,34 +144,50 @@ mvnw spring-boot:run
 You should see console output similar to the following (press `Ctrl + C` to exit):
 
 ```sh
-[INFO] Scanning for projects...
-[INFO] 
 [INFO] -------------------< com.cbfacademy:api-assessment >--------------------
 [INFO] Building api-assessment 0.0.1-SNAPSHOT
 [INFO]   from pom.xml
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
-[INFO] --- clean:3.2.0:clean (default-clean) @ api-assessment ---
-[INFO] Deleting /Users/gary/Dev/cbfacademy/java-api-assessment/target
-[INFO] 
 [INFO] >>> spring-boot:3.1.4:run (default-cli) > test-compile @ api-assessment >>>
 [INFO] 
 [INFO] --- resources:3.3.1:resources (default-resources) @ api-assessment ---
 [INFO] Copying 1 resource from src/main/resources to target/classes
-[INFO] Copying 0 resource from src/main/resources to target/classes
-...
-[truncated output]
-...
-2023-10-03T17:17:34.413+01:00  INFO 35536 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-10-03T17:17:34.751+01:00  INFO 35536 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2023-10-03T17:17:34.756+01:00  INFO 35536 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-03T17:17:34.756+01:00  INFO 35536 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-03T17:17:34.777+01:00  INFO 35536 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-03T17:17:34.778+01:00  INFO 35536 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 364 ms
-2023-10-03T17:17:34.898+01:00  INFO 35536 --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2023-10-03T17:17:34.907+01:00  INFO 35536 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2023-10-03T17:17:34.911+01:00  INFO 35536 --- [  restartedMain] com.cbfacademy.apiassessment.App         : Started App in 0.643 seconds (process running for 0.786)
-```
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ api-assessment ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ api-assessment ---
+[INFO] skip non existing resourceDirectory /Users/shana/
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ api-assessment ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 2 source files with javac [debug release 17] to target/test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.1.4:run (default-cli) < test-compile @ api-assessment <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.1.4:run (default-cli) @ api-assessment ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.4)
+
+2024-03-12T14:14:04.235Z  INFO 66802 --- [  restartedMain] com.cbfacademy.apiassessment.App         : Starting App using Java 17.0.9 with PID 66802 
+2024-03-12T14:14:04.236Z  INFO 66802 --- [  restartedMain] com.cbfacademy.apiassessment.App         : No active profile set, falling back to 1 default profile: "default"
+2024-03-12T14:14:04.256Z  INFO 66802 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-03-12T14:14:04.256Z  INFO 66802 --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-03-12T14:14:04.574Z  INFO 66802 --- [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2024-03-12T14:14:04.579Z  INFO 66802 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-12T14:14:04.579Z  INFO 66802 --- [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2024-03-12T14:14:04.603Z  INFO 66802 --- [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-12T14:14:04.603Z  INFO 66802 --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
 
 Open your browser and navigate to `http://localhost:8080`.
 
